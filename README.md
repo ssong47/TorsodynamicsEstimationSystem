@@ -1,0 +1,2 @@
+# TorsodynamicsEstimationSystem
+Code for processing torso-dynamics estimation system (TES) data from human subject testing 
