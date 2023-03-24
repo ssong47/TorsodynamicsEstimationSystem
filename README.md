@@ -7,6 +7,7 @@ Data processing code from validation study of the Torso-dynamics Estimation Syst
 2. [Directory Structure and Required Files](#directory-structure-and-required-files)
 3. [Using the Code](#using-the-code)
 4. [Code File Descriptions](#code-file-descriptions)
+5. [License](#license)
 
 ## Introduction
 The code files in this repository are used to process data was collected during a validation study of our Torso-Dynamics Estimation System (TES). The TES consisted of a Force Sensing Seat (FSS) and an inertial measurement unit (IMU) that measured the kinetics and kinematics of the subject's torso motions. The FSS estimated the 3D forces, 3D moments, and 2D COPs while the IMU estimated the 3D torso angles. To validate the TES, the FSS and IMU estimates were compared to gold standard research equipment (AMTI force plate and Qualisys motion capture system, respectively).
@@ -131,6 +132,27 @@ All of the MATLAB code files are commented, but for quick reference, they are su
 17. **process_imu_vn_data.m:** Computes torso angles (yaw, pitch, roll) from VN IMU data.
 18. **process_mocap_data.m:** Uses motion capture data to calculate the motion capture torso angles, FSS seat x angle, and FSS seat y angle.
 
+## License
+MIT License
 
+Copyright (c) 2023 ssong47
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
