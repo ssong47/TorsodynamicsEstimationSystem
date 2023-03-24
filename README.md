@@ -1,4 +1,4 @@
-﻿# Torso-dynamics Estimation System (TES) Validation Study
+# Torso-dynamics Estimation System (TES) Validation Study
 Data processing code from validation study of the Torso-dynamics Estimation System (TES)
 <br> **Corresponding paper**: (**INSERT PAPER LINK HERE**)
 
@@ -11,6 +11,8 @@ Data processing code from validation study of the Torso-dynamics Estimation Syst
 
 ## Introduction
 The code files in this repository are used to process data was collected during a validation study of our Torso-Dynamics Estimation System (TES). The TES consisted of a Force Sensing Seat (FSS) and an inertial measurement unit (IMU) that measured the kinetics and kinematics of the subject's torso motions. The FSS estimated the 3D forces, 3D moments, and 2D COPs while the IMU estimated the 3D torso angles. To validate the TES, the FSS and IMU estimates were compared to gold standard research equipment (AMTI force plate and Qualisys motion capture system, respectively).
+
+The data from this study can be found in this [IEEE DataPort](https://ieee-dataport.org/documents/validation-study-torso-dynamics-estimation-system-tes-hands-free-physical-human-robot). You can use this data with the code in this repository as an example of how to process the validation study data.
 
 **NOTE:** There were two generations of the FSS, FSS Gen 1.0 and FSS Gen 2.0. This repository contains data processing code from the validation study of each FSS generation. So, some of the code files correspond with only one of the FSS generations. Any code files with "Gen1" or "Gen2" in the name are for processing data from only that FSS generation. All other files are supporting functions that are used to process data from both FSS generations.
 
@@ -59,7 +61,7 @@ In each of these files, there are also comments explaining the directory structu
 - *FSS Gen 1.0 Figures* and *FSS Gen 2.0 Figures:* Empty folders where generated figures will be saved <br>
 
 ### Data files
-Due to the size of the data files, they were unable to be uploaded to this repository. Instead, they were uploaded to this IEEE DataPort **(INSERT LINK HERE)**. In this DataPort, there are two zipped folders named *FSS Gen 1.0 Data* and *FSS Gen 2.0 Data*, which correspond to the folders in the directory structure described above. You will need to unzip the folders and then put them in the directory structure. For more information on the data that was collected, see the README file in the IEEE DataPort.
+Due to the size of the data files, they were unable to be uploaded to this repository. Instead, they were uploaded to this [IEEE DataPort](https://ieee-dataport.org/documents/validation-study-torso-dynamics-estimation-system-tes-hands-free-physical-human-robot). In this DataPort, there are two zipped folders named *FSS Gen 1.0 Data* and *FSS Gen 2.0 Data*, which correspond to the folders in the directory structure described above. You will need to unzip the folders and then put them in the directory structure. For more information on the data that was collected, see the README file in the IEEE DataPort.
 
 ## Using the Code
 Most of the MATLAB code files in this repository are supporting functions used in the main data processing scripts. As a result, you will only need to run the main data processing scripts, which are:
