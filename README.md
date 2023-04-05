@@ -1,6 +1,6 @@
 # Torso-dynamics Estimation System (TES) Validation Study
 Data processing code from validation study of the Torso-dynamics Estimation System (TES)
-<br> **Corresponding paper**: (**INSERT PAPER LINK HERE**)
+<br> **Corresponding paper**: [Design and Validation of a Torso-Dynamics Estimation System (TES) for Hands-Free Physical Human-Robot Interaction](https://doi.org/10.36227/techrxiv.22336843.v1)
 
 ## Table of Contents
 1. [Introduction](#introduction)
