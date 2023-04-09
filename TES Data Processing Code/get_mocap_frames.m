@@ -1,4 +1,9 @@
 function [torso_frame, seat_frame, origin_frame] = get_mocap_frames(torso_mocap, seat_mocap, origin_mocap)
+% This file is used for processing data from the Torso-dynamics Estimation System (TES) Validation Study.
+    % Link to corresponding paper: https://doi.org/10.36227/techrxiv.22336843.v1
+% All code files (including this one) can be found here: https://github.com/ssong47/TorsodynamicsEstimationSystem
+% The data can be found here: https://ieee-dataport.org/documents/validation-study-torso-dynamics-estimation-system-tes-hands-free-physical-human-robot
+
 % Calculates the frames of the torso, FSS seat, and mocap system origin
 
 % Find length of data (# of samples)
