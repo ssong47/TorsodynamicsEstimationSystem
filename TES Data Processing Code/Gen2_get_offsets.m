@@ -1,9 +1,14 @@
 function [i_start_all, i_amti_start, i_qtm_start, i_end_idx_array,...
  crop_status_array, i_crop_s_array, i_crop_e_array] = get_offsets(subject_id)
+% This file is used for processing data from the Torso-dynamics Estimation System (TES) Validation Study.
+    % Link to corresponding paper: https://doi.org/10.36227/techrxiv.22336843.v1
+% All code files (including this one) can be found here: https://github.com/ssong47/TorsodynamicsEstimationSystem
+% The data can be found here: https://ieee-dataport.org/documents/validation-study-torso-dynamics-estimation-system-tes-hands-free-physical-human-robot
+
 % Since data collection was not synchronized, time offsets were found 
 % The found offsets will be used to align all data in the time axis
 % NOTE: this function applies offsets for the Gen 2.0 FSS study. Use
-% Gen1_get_offsets.m if analyzing data from the Gen 1.0 FSS study
+    % Gen1_get_offsets.m if analyzing data from the Gen 1.0 FSS study
 
 if strcmp(subject_id, 'S1') == 1
     i_start_all =  [[1, 2136, 1, 1250]]; % Truncate overall first
