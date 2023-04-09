@@ -1,10 +1,15 @@
+% This file is used for processing data from the Torso-dynamics Estimation System (TES) Validation Study.
+    % Link to corresponding paper: https://doi.org/10.36227/techrxiv.22336843.v1
+% All code files (including this one) can be found here: https://github.com/ssong47/TorsodynamicsEstimationSystem
+% The data can be found here: https://ieee-dataport.org/documents/validation-study-torso-dynamics-estimation-system-tes-hands-free-physical-human-robot
+
 % NOTE: This is for FSS Gen 2.0 ONLY! To get table for FSS Gen 1.0, use
-% Gen1_aggregate_data_processing.m
+    % Gen1_aggregate_data_processing.m
 % This code generates a table of averages and standard errors of the RMSE,
-% max, and min for data of two subject groups
+    % max, and min for data of two subject groups
 % Data: Fx, Fy, Fz, Mx, My, Mz, COPx, COPy, yaw, pitch, roll
 % Subject groups: able-bodied users (ABUs) and manual wheelchair users
-% (mWCUs)
+    % (mWCUs)
 
 
 %% Define directories
