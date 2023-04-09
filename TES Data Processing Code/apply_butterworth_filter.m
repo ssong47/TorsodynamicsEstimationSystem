@@ -1,5 +1,10 @@
 function yNew = apply_butterworth_filter(b,a,y)
 
+% This file is used for processing data from the Torso-dynamics Estimation System (TES) Validation Study.
+    % Link to corresponding paper: https://doi.org/10.36227/techrxiv.22336843.v1
+% All code files (including this one) can be found here: https://github.com/ssong47/TorsodynamicsEstimationSystem
+% The data can be found here: https://ieee-dataport.org/documents/validation-study-torso-dynamics-estimation-system-tes-hands-free-physical-human-robot
+
 %{
     PURPOSE: To remove noise from raw data y
 
@@ -10,7 +15,7 @@ function yNew = apply_butterworth_filter(b,a,y)
 
     DONE BY: Seung Yun Song <ssong47@illinois.edu>
     
-    REFER THE PAPER:  S. Y. Song, Y. Pei, and E. T. Hsiao-Wecksler, 
+    REFER TO THE PAPER:  S. Y. Song, Y. Pei, and E. T. Hsiao-Wecksler, 
     “Estimating Relative Angles Using Two Inertial Measurement Units Without Magnetometers,” 
     IEEE Sens. J., 2021.
 %}    
