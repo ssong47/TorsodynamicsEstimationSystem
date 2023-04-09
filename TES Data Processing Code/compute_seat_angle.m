@@ -1,5 +1,10 @@
 function [seat_theta_x_array_post, seat_theta_y_array_post] =...
                         compute_seat_angle(origin_pts, seat_pts)
+% This file is used for processing data from the Torso-dynamics Estimation System (TES) Validation Study.
+    % Link to corresponding paper: https://doi.org/10.36227/techrxiv.22336843.v1
+% All code files (including this one) can be found here: https://github.com/ssong47/TorsodynamicsEstimationSystem
+% The data can be found here: https://ieee-dataport.org/documents/validation-study-torso-dynamics-estimation-system-tes-hands-free-physical-human-robot
+
 % Uses mocap data (origin_pts, seat_pts) to calculate theta_x and theta_y, the FSS seat angles
 % origin_pts = origin points of mocap system (markers on Qualisys L-frame)
 % seat_pts = mocap markers on corners of FSS seat
