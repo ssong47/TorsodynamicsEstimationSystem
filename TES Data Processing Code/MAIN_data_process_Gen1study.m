@@ -1,3 +1,8 @@
+% This file is used for processing data from the Torso-dynamics Estimation System (TES) Validation Study.
+    % Link to corresponding paper: https://doi.org/10.36227/techrxiv.22336843.v1
+% All code files (including this one) can be found here: https://github.com/ssong47/TorsodynamicsEstimationSystem
+% The data can be found here: https://ieee-dataport.org/documents/validation-study-torso-dynamics-estimation-system-tes-hands-free-physical-human-robot
+
 % NOTE: This is for FSS Gen 1.0 ONLY! To get master data and plots for 
 % FSS Gen 2.0, use MAIN_data_process_Gen2study.m
     % This code processes the FSS, QTM (Qualisys motion capture), VN IMU, and
