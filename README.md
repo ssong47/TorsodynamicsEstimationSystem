@@ -22,7 +22,7 @@ The data from this study can be found in this [IEEE DataPort](https://ieee-datap
 
 **NOTE:** There were two generations of the FSS, FSS Gen 1.0 and FSS Gen 2.0. This repository contains data processing code from the validation study of each FSS generation. So, some of the code files correspond with only one of the FSS generations. Any code files with "Gen1" or "Gen2" in the name are for processing data from only that FSS generation. All other files are supporting functions that are used to process data from both FSS generations.
 
-### Models of Equipment Used
+### Models of Equipment Used for Data Collection
 - **Load cells (used in FSS)**
   - *FSS Gen 1.0:* DYMH-103, Calt, China (x6)
   - *FSS Gen 2.0:* CZL301C, Hualanhai, China (x6)
@@ -31,6 +31,11 @@ The data from this study can be found in this [IEEE DataPort](https://ieee-datap
   - *For FSS Gen 1.0 study:* BP600900-1K, AMTI, USA
   - *For FSS Gen 2.0 study:* OR6-7-2000, AMTI, USA
 - **Motion capture cameras (x6):** Oqus 500, Qualisys, Sweden
+
+### Software Used for Data Collection
+- MATLAB R2022b
+- Qualisys Track Manager
+- CoolTerm
 
 ### Note on Units
 The following units were used for the validation study data:
