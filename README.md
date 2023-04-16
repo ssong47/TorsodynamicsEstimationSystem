@@ -156,6 +156,7 @@ All of the MATLAB code files are commented, but for quick reference, they are su
 For any questions regarding the study or the data processing code, please contact:
 - Seung Yun (Leo) Song: ssong47@illinois.edu
 - Nadja Marin: nadjam2@illinois.edu
+- Dr. Elizabeth Hsiao-Wecksler: ethw@illinois.edu
 
 ## License
 MIT License
