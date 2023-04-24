@@ -33,7 +33,7 @@ The data from this study can be found in this [IEEE DataPort](https://ieee-datap
 - **Motion capture cameras (x6):** Oqus 500, Qualisys, Sweden
 
 ### Software Used for Data Collection
-- MATLAB R2022b
+- MATLAB R2022b with signal toolbox
 - Qualisys Track Manager
 - CoolTerm
 
